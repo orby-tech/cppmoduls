@@ -2,8 +2,7 @@
 
 Napi::String SayHi(const Napi::CallbackInfo& info) {
   Napi::Env env = info.Env();
-
-  return Napi::String::New(env, "Hi!");
+  return Napi::String::New(env, "6");
 }
 
 Napi::Object init(Napi::Env env, Napi::Object exports) {
